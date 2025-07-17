@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #161b22;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #58a6ff;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #8b949e;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #58a6ff;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #58a6ff;
+    }
+
+    .projects {
+      display: grid;
+      gap: 20px;
+    }
+
+    .project {
+      background: #161b22;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #30363d;
+    }
+
+    .project h3 {
+      color: #79c0ff;
+    }
+
+    .project p {
+      color: #c9d1d9;
+    }
+
+    footer {
+      background: #161b22;
+      text-align: center;
+      padding: 20px;
+      color: #8b949e;
+      font-size: 14px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #238636;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    a.button:hover {
+      background-color: #2ea043;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jay Vim</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="section" id="about">
+  <h2>About Me</h2>
+  <p>Hello! I'm a web developer passionate about clean code and sleek design. I love working with HTML, CSS, and JavaScript to build responsive, dark-themed sites like this one.</p>
+</section>
+
+<section class="section" id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project">
+      <h3>Project One</h3>
+      <p>A short description of what this project does and the technologies used.</p>
+      <a href="#" class="button" target="_blank">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Project Two</h3>
+      <p>Another project description with highlights of what makes it great.</p>
+      <a href="#" class="button" target="_blank">View Project</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact</h2>
+  <p>Reach out to me via email at <a href="mailto:your@email.com" style="color:#58a6ff;">your@email.com</a>.</p>
+</section>
+
+<footer>
+  <p>© 2025 Jay Vim. Powered by GitHub Pages</p>
+</footer>
+
+</body>
+</html>
